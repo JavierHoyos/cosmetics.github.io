@@ -1,0 +1,133 @@
+/* Adaptable (Responsivo) */
+
+@media  screen and (max-width: 2000px) {
+    
+}
+
+/* 'xxl' applies to x-large devices (large desktops, less than 1400px)  */
+
+@media screen and (max-width: 1399.98px) {
+    
+    
+
+}
+
+
+/* 'xl' applies to large devices (desktops, less than 1200px) */
+
+@media screen and (max-width: 1199.98px) {
+
+
+}
+
+/* 'lg' applies to medium devices (landscape phones, less than 992px) */
+
+@media screen and (max-width: 991.98px) {
+.features-description {
+    display: flex;
+    flex-direction: column;
+}
+}
+
+/* 'md' applies to small devices (landscape phones, less than 768px) */
+
+@media  screen and (max-width: 767.98px) {
+/* Info-main */
+
+.info-main h1 {
+    font: 50px Montserrat, sans-serif;
+}
+
+
+/* descripción del producto */
+
+.image-1 {
+    margin-top: 43px;
+}
+
+/* Contacto */
+    
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact Details */
+
+.title h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+.info li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo  */
+
+.logo p {
+    margin-bottom: 45px;
+}
+
+/* Quick Links  */
+
+.title-links h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info-links li {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer - icons */
+
+.icons {
+    margin-top: 25px;
+}
+
+}
+
+/* 'sm' applies to x-small devices (portrait phones, less than 576px)  */
+
+@media screen and (max-width: 575.98px) {
+}
+
+@media screen and (max-width: 375px) {
+    .image-1 {
+        width: 315px;
+        height: 446.98px;
+    }
+}
+
+
+@media screen and (max-width: 320px) {
+    /* Info-main */
+
+.info-main h1 {
+    font: 40px Montserrat, sans-serif;
+}
+
+    .image-1 {
+        width: 260px;
+        height: 368.94px;
+    }
+
+    
+.texto-blanco {
+    width: 280px;
+    font-size: 30px;
+}
+}
+

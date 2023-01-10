@@ -1,0 +1,234 @@
+/* Barra de navegación ¨*/
+
+.navbar {
+    height: 850px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-main {
+    background-image: url(/images/pexels-maria-camila-castaño-7712467.jpg);
+    background-size: cover;
+}
+
+
+
+.navbar-collapse {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-link,
+.active {
+    color: #f5DEB3;
+    padding: 0px 14px;
+    font-weight: bold;
+}
+
+.menu-link {
+    padding-top: 45px;
+}
+
+
+/* Info-main */
+
+.info-main h1 {
+    font: 90px Montserrat, sans-serif;
+    text-align: center;
+}
+
+.texto-blanco {
+    color: #fff;
+}
+
+
+/* Formulario  */
+
+.contact {
+    /*margin-top: 184px;*/
+    height: 728px;
+    background-color: #877677;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact label {
+    color: #565656;
+    font: 17px Cabin, sans-serif;
+    margin-right: 12px;
+}
+
+.contact-flex {
+    border: 2px solid #f8c0e4;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 75px;
+    background-color: #f3eae8;
+}
+
+.form-flex {
+    /*flex-column justify-content-between align-items-start*/
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.contact-flex h5 {
+    color: #269FB7;
+}
+
+.form input {
+    width: 100%;
+}
+
+.form .firstName {
+    margin-right: 8px;
+}
+
+.input-formulario-nombres {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Sección contactenos */
+
+.icons-info {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+
+
+
+.title-style-info button {
+    text-transform: uppercase;
+    background-color: #269FB7;
+    color: #fff;
+    padding: 15px 35px;
+    border: none;
+    font-family: Cabin, sans-serif;
+    font-size: 12px;
+}
+
+.address iframe {
+    width: 100%;
+    height: 100%;
+}
+
+
+.contact-margin {
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.contact-flex-section {
+    /*d-flex flex-column justify-content-center align-items-start*/
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.contact-us h2 {
+    font: 36px Montserrat, sans-serif;
+    margin: 0px 0px 10px;
+}
+
+.contact-us p {
+    color: #565656;
+    font: 17px Cabin, sans-serif;
+    text-align: justify;
+}
+
+.icons-media i {
+    color: #269FB7;
+    margin-left: 20px;
+}
+
+.icons-info i {
+    color: #269FB7;
+}
+
+
+
+/* Contacto */
+
+.contacto {
+    color: #fff;
+    background-color: black;
+    padding: 100px 20px;
+}
+
+
+.noPadding {
+    padding-right: 0px;
+}
+
+
+.col-12,
+.col-md-3,
+.col-md-4 {
+    padding: 0px;
+    width: 100%;
+}
+
+/* Contact Details */
+
+.title h2 {
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: flex-start
+}
+
+.info li{
+    list-style: none;
+    display: flex;
+}
+
+
+/* Quick Links  */
+
+.title-links h2 {
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.info-links li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.info-links li a {
+    color: #f7f7f7;
+    font: 17px Cabin, sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* Footer  */
+
+.footer {
+    color: #fff;
+    background-color: black;
+    padding: 20px 0px;
+}
+.icons i {
+    margin-left: 20px;
+}

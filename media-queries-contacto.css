@@ -1,0 +1,214 @@
+/* Adaptable (Responsivo) */
+
+@media  screen and (max-width: 2000px) {
+    .contact-flex h5 {
+        font-size: 35px;
+    }
+}
+
+/* 'xxl' applies to x-large devices (large desktops, less than 1400px)   */
+
+@media screen and (max-width: 1399.98px) {
+}
+
+/* 'xl' applies to large devices (desktops, less than 1200px) */
+
+@media screen and (max-width: 1199.98px) {
+    
+}
+
+/* 'lg' applies to medium devices (tables, less than 992px) */
+
+@media  screen and (max-width: 991.98px) {
+    
+}
+
+/* 'md' applies to small devices (landscape phones, less than 768px)  */
+
+@media screen and (max-width: 767.98px) {
+    /* Info-main */
+
+.info-main h1 {
+    font: 30px Montserrat, sans-serif;
+}
+
+
+/* Contacto */
+    
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact Details */
+
+.title h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+.info li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo  */
+
+.logo p {
+    margin-bottom: 45px;
+}
+
+/* Quick Links  */
+
+.title-links h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info-links li {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer - icons */
+
+.icons {
+    margin-top: 25px;
+}
+    
+}
+
+/* 'sm' applies to x-small devices (portrait phones, less than 576px)  */
+
+@media screen and (max-width: 575.98px) {
+    .contact-flex-section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .icons-media {
+        margin-bottom: 30px;
+    }
+
+    .icons-info {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input-formulario-nombres {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .contact-flex {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-flex {
+        /*flex-column justify-content-between align-items-start*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .form input {
+        width: 180px;
+        padding-right: 40px;
+    }
+
+    .form .firstName {
+        margin-right: 0px;
+    }
+
+    .contact textarea {
+        width: 300px;
+    }
+
+    .secondName {
+        margin-bottom: 30px;
+    }
+
+
+    .contact-us {
+        padding: 20px;
+    }
+
+    .contact-us h2 {
+        font: 25px Montserrat, sans-serif;
+        text-align: center;
+    }
+
+    .contact-flex h5 {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+
+    .contact-flex {
+        width: 280px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .form-flex {
+        /*flex-column justify-content-between align-items-start*/
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .form input {
+        width: 180px;
+        padding-right: 40px;
+    }
+
+    .form .firstName {
+        margin-right: 0px;
+    }
+
+    .contact textarea {
+        width: 180px;
+    }
+
+    .secondName {
+        margin-bottom: 30px;
+    }
+
+
+    .contact-us {
+        padding: 20px;
+    }
+
+    .contact-us h2 {
+        font: 25px Montserrat, sans-serif;
+        text-align: center;
+    }
+
+    .icons-media {
+        margin-right: 20px;
+    }
+}

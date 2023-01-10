@@ -1,0 +1,189 @@
+/* Barra de navegación ¨*/
+
+.navbar {
+    height: 850px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-main {
+    background-image: url(/images/pexels-maria-camila-castaño-7712467.jpg);
+    background-size: cover;
+}
+
+
+
+.navbar-collapse {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-link,
+.active {
+    color: #f5DEB3;
+    padding: 0px 14px;
+    font-weight: bold;
+}
+
+.menu-link {
+    padding-top: 45px;
+}
+
+
+/* Info-main */
+
+.info-main h1 {
+    font: 90px Montserrat, sans-serif;
+    text-align: center;
+}
+
+.texto-blanco {
+    color: #fff;
+}
+
+
+/* descripción del producto */
+
+.about-description h5 {
+    font: 17 Montserrat, sans-serif;
+    color: #269FB7;
+    margin-bottom: 23px;
+}
+
+.about-description h3 {
+    margin-bottom: 23px;
+}
+
+.title-feature h5 {
+    margin-bottom: 23px;
+    margin-top: 23px;
+}
+
+.features-description {
+    display: flex;
+}
+
+.image-1 {
+    width: 100%;
+    height: 624.36px;
+}
+
+.image-height {
+    height: 482.35px;
+}
+
+.image-height img {
+    background-size: cover;
+}
+
+
+/* Beneficios */
+
+.beneficios {
+    margin-top: 80px;
+}
+
+.beneficios i {
+    border-radius: 50%;
+    border: 1px solid #269FB7;
+    padding: 15px;
+    width: 62px;
+    height: 62px;
+    font-family: Cabin, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.beneficios span {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.beneficios p {
+    width: 100%;
+    height: 94.69px;
+}
+
+
+
+/* Contacto */
+
+.contacto {
+    color: #fff;
+    background-color: black;
+    padding: 100px 20px;
+}
+
+
+.noPadding {
+    padding-right: 0px;
+}
+
+
+.col-12,
+.col-md-3,
+.col-md-4 {
+    padding: 0px;
+    width: 100%;
+}
+
+/* Contact Details */
+
+.title h2 {
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: flex-start
+}
+
+.info li{
+    list-style: none;
+    display: flex;
+}
+
+
+/* Quick Links  */
+
+.title-links h2 {
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.info-links li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.info-links li a {
+    color: #f7f7f7;
+    font: 17px Cabin, sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* Footer  */
+
+.footer {
+    color: #fff;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.icons i {
+    margin-left: 20px;
+}
+

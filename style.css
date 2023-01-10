@@ -1,0 +1,367 @@
+/* Barra de navegación ¨*/
+
+.navbar {
+    height: 850px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-main {
+    background-image: url(/images/pexels-maria-camila-castaño-7712467.jpg);
+    background-size: cover;
+}
+
+
+
+.navbar-collapse {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-link,
+.active {
+    color: #f5DEB3;
+    padding: 0px 14px;
+    font-weight: bold;
+}
+
+.menu-link {
+    padding-top: 45px;
+}
+
+/* Info-main */
+
+.info-main h1 {
+    font: 90px Montserrat, sans-serif;
+    text-align: center;
+}
+
+.texto-blanco {
+    color: wheat;
+}
+
+.texto-width {
+    max-width: 741px;
+    color: #76777c;
+}
+
+/* Button */
+
+.verMas {
+    fill: #fff;
+    color: #fff;
+    background-color: transparent;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #fff;
+    padding: 15px 13px;
+    font: 12px Cabin, sans-serif;
+}
+
+.flex {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* Descripcion */
+
+.descripction-padding {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.title-description-blue {
+    color: #269FB7;
+}
+
+.pagraph-description {
+    width: 100%;
+    color: #565656;
+}
+
+
+/* Productos */
+
+.productos {
+    padding: 100px 30px;
+}
+
+.productos img {
+    width: 100%;
+    height: 270px;
+    margin-bottom: 13.6px;
+}
+
+.star {
+    margin-bottom: 20px;
+}
+
+
+
+
+
+/*  Descripcion-producto-info  */
+
+.info-producto {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex-image {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-image img {
+    width: 100%; 
+    height: 460.67px;
+    background-size: cover;
+}
+
+.title-style {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-style-info {
+    width: 100%;
+    height: 460.67px;
+    background-color: #b1d4eb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-style-info h5 {
+    color: #269FB7;
+    font-family: Montserrat, sans-serif;
+    font-size: 17px;
+}
+
+.title-style-info h6 {
+    font-family: Montserrat, sans-serif;
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+
+.title-style-info p {
+    padding: 40px;
+}
+
+.title-style-info button {
+    text-transform: uppercase;
+    background-color: #269FB7;
+    color: #fff;
+    padding: 15px 35px;
+    border: none;
+    font-family: Cabin, sans-serif;
+    font-size: 12px;
+}
+
+/* Beneficios */
+
+.beneficios {
+    margin-top: 80px;
+}
+
+.beneficios i {
+    border-radius: 50%;
+    border: 1px solid #269FB7;
+    padding: 15px;
+    width: 62px;
+    height: 62px;
+    font-family: Cabin, sans-serif;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.beneficios span {
+    font-family: Montserrat, sans-serif;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+
+.beneficios p {
+    width: 100%;
+    height: 94.69px;
+}
+
+
+/* Testimonios */
+
+.testimonio {
+    padding: 100px 25px;
+    margin-right: 0px;
+    margin-left: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.testimonio img {
+    width: 60px;
+    height: 60px;
+    background-size: cover;
+    border-radius: 50%;
+    color: #565656;
+    font-family: Cabin, sans-serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.testimonio h5 {
+    color: #269FB7;
+    font-family: Montserrat, sans-serif;
+    font-size: 16px;
+}
+
+.testimonio p {
+    color: #565656;
+    font-family: Cabin, sans-serif;
+    font-size: 22.1px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.testimonio .client {
+    color: #565656;
+    font-family: Cabin, sans-serif;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+/* ultimos productos */
+.productos-belleza {
+    padding: 125px 30px 100px;
+}
+
+.productos-belleza img {
+    width: 100%;
+    height: 270px;
+    margin-bottom: 13.6px;
+    background-size: cover;
+}
+
+/* Registro a fan club de maquillaje */
+
+d-flex flex-column justify-content-center align-items-center
+
+.form-flex {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.registro {
+    margin-bottom: 60px;
+}
+
+.registro button {
+    background-color: #269FB7;
+    color: #fff;
+    font-family: Cabin, sans-serif;
+    font-size: 12px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+}
+
+/*
+.signUp h2{
+    max-width: 450px;
+}*/
+
+/* Contacto */
+
+.contacto {
+    color: #fff;
+    background-color: black;
+    padding: 100px 20px;
+}
+
+
+.noPadding {
+    padding-right: 0px;
+}
+
+
+.col-12,
+.col-md-3,
+.col-md-4 {
+    padding: 0px;
+    width: 100%;
+}
+
+/* Contact Details */
+
+.title h2 {
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: flex-start
+}
+
+.info li{
+    list-style: none;
+    display: flex;
+}
+
+
+/* Quick Links  */
+
+.title-links h2 {
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.info-links li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.info-links li a {
+    color: #f7f7f7;
+    font: 17px Cabin, sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* Footer  */
+
+.footer {
+    color: #fff;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.icons i {
+    margin-left: 20px;
+}
+

@@ -1,0 +1,122 @@
+/* 'xxl' applies to x-large devices (large desktops, less than 1400px)   */
+
+@media screen and (max-width: 1399.98px) {
+    
+}
+
+/* 'xl' applies to large devices (desktops, less than 1200px) */
+
+@media screen and (max-width: 1199.98px) {
+    
+}
+
+/* 'lg' applies to medium devices (tables, less than 992px) */
+
+@media  screen and (max-width: 991.98px) {
+    
+}
+
+/* 'md' applies to small devices (landscape phones, less than 768px)  */
+
+@media screen and (max-width: 767.98px) {
+    /* Info-main */
+
+.info-main h1 {
+    font: 30px Montserrat, sans-serif;
+}
+
+    
+    /* Registro a fan club de maquillaje  */
+    
+    .signUp h2{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+        margin-right: 0px;
+    }
+    
+    .registro input {
+        width: 55%;
+        padding: 13.5px;
+    }
+
+    /* descripción del producto */
+
+.image-1 {
+    margin-top: 43px;
+}
+
+/* Contacto */
+    
+.contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Contact Details */
+
+.title h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info {
+    margin-bottom: 40px;
+}
+
+.info li{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Logo  */
+
+.logo p {
+    margin-bottom: 45px;
+}
+
+/* Quick Links  */
+
+.title-links h2 {
+    display: flex;
+    justify-content: center;
+}
+
+.info-links li {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* Footer - icons */
+
+.icons {
+    margin-top: 25px;
+}
+    
+}
+
+/* 'sm' applies to x-small devices (portrait phones, less than 576px)  */
+
+@media screen and (max-width: 575.98px) {
+
+/* Registro a fan club de maquillaje  */
+
+
+
+.registro input {
+    width: 55%;
+    padding: 13.5px;
+}
+
+button {
+    border: 3px solid orange;
+}
+
+
+
+}

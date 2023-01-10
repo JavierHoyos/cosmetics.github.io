@@ -1,0 +1,189 @@
+/* Barra de navegación ¨*/
+
+.navbar {
+    height: 850px;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.img-main {
+    background-image: url(/images/pexels-maria-camila-castaño-7712467.jpg);
+    background-size: cover;
+}
+
+
+
+.navbar-collapse {
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar .nav-link,
+.active {
+    color: #f5DEB3;
+    padding: 0px 14px;
+    font-weight: bold;
+}
+
+.menu-link {
+    padding-top: 45px;
+}
+
+
+/* Info-main */
+
+.info-main h1 {
+    font: 90px Montserrat, sans-serif;
+    text-align: center;
+}
+
+.texto-blanco {
+    color: #fff;
+}
+
+
+/* Testimonios */
+
+.testimonials-box {
+    background-color: #f8efed;
+    box-shadow: 9px 8px 151px -42px rgba(28,21,28,0.64);
+}
+
+.testimonials p {
+    color: #565656;
+    font: 22.1px Cabin, sans-serif;
+    margin: 0px 0px 20px;
+}
+
+.testimonio-imagen {
+    height: 60px;
+    width: 60px;
+    margin: 10px 10px 20px 10px;
+    border-radius: 50%;
+    background-size: cover;
+}
+
+/* Registro a fan club de maquillaje */
+
+.registro {
+    margin-bottom: 60px;
+}
+
+.registro-width {
+    width: 100%;
+    margin-right: 0px;
+}
+
+
+
+.form-control-width {
+        display: block;
+        padding: .375rem .75rem;
+        font-size: 1rem;
+        font-weight: 400;
+        line-height: 1.5;
+        color: #212529;
+        background-color: #fff;
+        background-clip: padding-box;
+        border: 1px solid #ced4da;
+        -webkit-appearance: none;
+        -moz-appearance: none;
+        appearance: none;
+        border-radius: .375rem;
+        transition: border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+}
+
+.registro button {
+    background-color: #269FB7;
+    color: #fff;
+    font-family: Cabin, sans-serif;
+    font-size: 12px;
+    padding: 15px 35px;
+    text-transform: uppercase;
+    border: none;
+}
+
+.signUp {
+    display: flex;
+    justify-content: center;
+}
+
+.signUp h2{
+    max-width: 450px;
+}
+
+/* Contacto */
+
+.contacto {
+    color: #fff;
+    background-color: black;
+    padding: 100px 20px;
+}
+
+
+.noPadding {
+    padding-right: 0px;
+}
+
+
+.col-12,
+.col-md-3,
+.col-md-4 {
+    padding: 0px;
+    width: 100%;
+}
+
+/* Contact Details */
+
+.title h2 {
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: flex-start
+}
+
+.info li{
+    list-style: none;
+    display: flex;
+}
+
+
+/* Quick Links  */
+
+.title-links h2 {
+    margin: 0px 0px 24px;
+    display: flex;
+    justify-content: flex-end
+}
+
+.info-links li {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.info-links li a {
+    color: #f7f7f7;
+    font: 17px Cabin, sans-serif;
+    text-decoration: none;
+}
+
+
+
+/* Footer  */
+
+.footer {
+    color: #fff;
+    background-color: black;
+    padding: 20px 0px;
+}
+
+.icons i {
+    margin-left: 20px;
+}
