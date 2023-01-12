@@ -13,7 +13,7 @@
 }
 
 .img-main {
-    background-image: url(pexels-maria-camila-castaño-7712467.jpg);
+    background-image: url(/images/pexels-maria-camila-castaño-7712467.jpg);
     background-size: cover;
 }
 
@@ -46,9 +46,14 @@
     color: wheat;
 }
 
+.texto-black {
+    color: black;
+}
+
 .texto-width {
     max-width: 741px;
-    color: #76777c;
+    /*color: #76777c;*/
+    color: black;
 }
 
 /* Button */
@@ -82,7 +87,7 @@
 }
 
 .pagraph-description {
-    width: 100%;
+    max-width: 741px;
     color: #565656;
 }
 
