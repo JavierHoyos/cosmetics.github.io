@@ -116,6 +116,12 @@
         max-width: 200px;
     }
     
+    
+    .form-text {
+        padding: 0px 15px;
+        text-align: justify;
+    }
+    
     /* Button */
     
     .verMas {
