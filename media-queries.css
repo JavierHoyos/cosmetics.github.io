@@ -89,6 +89,12 @@
         font: 18px Cabin, sans-serif;
         text-align: center;
     }
+    
+    /* Descripción */
+
+    .pagraph-description {
+        padding: 0px 24px;
+    }
 
     
     /* Registro a fan club de maquillaje  */
