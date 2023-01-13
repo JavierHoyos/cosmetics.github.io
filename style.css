@@ -53,7 +53,8 @@
 .texto-width {
     max-width: 741px;
     /*color: #76777c;*/
-    color: black;
+    color: #4e5e2a;
+    text-align: justify;
 }
 
 /* Button */
