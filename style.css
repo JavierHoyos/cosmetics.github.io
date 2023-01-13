@@ -55,6 +55,9 @@
     /*color: #76777c;*/
     color: #4e5e2a;
     text-align: justify;
+    background-color: #ac9de9;
+    padding: 13px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 /* Button */
